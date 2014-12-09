@@ -1,6 +1,10 @@
-== responsive_adaptive ==
+# CSS, Sass, Compass Workshop
+We have a branch with the design template and the html template.
+Your task is to theme the html with as much usage of sass and compass as possible.
 
-== Compiling Sass ==
+This repo is work in progress.
+
+# Compiling Sass
 needs Grunt, Guard & Bundler
 
 1.A) Sass/Compass with Bundler & Guard
@@ -15,16 +19,12 @@ needs Grunt, Guard & Bundler
      b) compiling once with sass-linting and generating sass-doc
         $ grunt compile
      c) watching (using guard) - maybe useless option
-        $ grunt guard
-     d) watch
-        $ grunt dev
+        $ grunt default
 
 
-== Using Grunt ==
-scsslint, jshint and casper will be run - make sure all packages are installed (1.B.1)
+
+# Using Grunt
+scsslint and jshint - make sure all packages are installed (1.B.1)
 
 2.A) run the general lint & test
-  1. $ grunt test
-
-2.B) run dedicated tests (eg. login)
-  1. $ grunt casper:login
+  1. $ grunt lint
