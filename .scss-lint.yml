@@ -1,0 +1,31 @@
+# default config https://github.com/causes/scss-lint/blob/master/config/default.yml
+
+linters:
+  BorderZero:
+    enabled: false
+
+  Indentation:
+    severity: warning
+    width: 2
+
+  Comment:
+    enabled: false
+
+  HexNotation:
+    enabled: false
+
+  SingleLinePerProperty:
+    allow_single_line_rule_sets: false
+
+  PropertySortOrder:
+    enabled: false
+
+  SelectorFormat:
+    convention: '[a-z0-9\-\_]+'
+
+  SelectorDepth:
+    enabled: true
+    max_depth: 3
+    exclude:
+      - 'sass/components/form/_dialog-links.scss'
+      - 'sass/components/form/_field-collections.scss'
