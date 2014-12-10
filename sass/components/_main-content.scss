@@ -1,23 +1,26 @@
 main {
-  nav {
-    background: $color-neptune;
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      ul {
-        margin-left: 20px;
-      }
-    }
-  }
   section {
     > ul {
       list-style: none;
       margin: 0;
       padding: 0;
+      h2{
+        margin-top: 0;
+      }
+      li{
+        padding-top: 10px;
+        margin-bottom: 20px;
+        border-top: 10px solid $color-mystic;
+        &:hover{
+          background: $color-aqua-haze;
+        }
+        &:nth-child(2n){
+          border-top-color: $color-olivine;
+          &:hover{
+            background: $color-kidnapper;
+          }
+        }
+      }
     }
-  }
-  aside {
-    background: $color-olivine;
   }
 }

@@ -1,0 +1,27 @@
+.sub-menu{
+  background: $color-neptune;
+  padding: 10px;
+  ul {
+    background: $color-aqua-haze;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li{
+      background: $color-mystic;
+      border-top: 2px solid white;
+      li{
+        background: $color-aqua-haze;
+        padding-left: 20px;
+      }
+    }
+    a{
+      color: $color-tundora;
+      text-decoration: none;
+      padding: 10px;
+      display: block;
+      &:hover{
+        font-style: italic;
+      }
+    }
+  }
+}
