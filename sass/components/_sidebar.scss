@@ -26,8 +26,10 @@ aside {
   .date {
     @include clearfix;
 
-    p + p .js & {
-      display: none;
+    p + p {
+      .js & {
+        display: none;
+      }
     }
 
     .more {

@@ -1,0 +1,24 @@
+.pager {
+  text-align: center;
+
+  ul {
+    @include inline-block-list;
+  }
+
+  li {
+    a {
+      text-decoration: none;
+      background: $color-silver;
+      color: #fff;
+      padding: 3px 5px;
+      display: inline-block;
+    }
+
+    &:first-child,
+    &:last-child {
+      a {
+        background: $color-alto;
+      }
+    }
+  }
+}
