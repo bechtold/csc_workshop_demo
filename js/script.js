@@ -11,4 +11,6 @@ $(function () {
   });
 
   $(window).trigger('hashchange');
+
+  $('html').addClass('js');
 });
