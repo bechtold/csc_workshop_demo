@@ -20,6 +20,12 @@ main {
             background: $color-kidnapper;
           }
         }
+        article{
+          @include clearfix;
+          .more{
+            float: right;
+          }
+        }
       }
     }
   }

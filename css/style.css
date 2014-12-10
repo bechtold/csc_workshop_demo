@@ -86,6 +86,13 @@ main section > ul {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000319}}
       main section > ul li:nth-child(2n):hover {
         background: #dde6cb; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000323}}
+    main section > ul li article {
+      overflow: hidden;
+      *zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000325}}
+      main section > ul li article .more {
+        float: right; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_menu-main\.scss}line{font-family:\000031}}
 .main-menu {
@@ -193,7 +200,18 @@ main section > ul {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_sidebar\.scss}line{font-family:\000031}}
 aside {
-  background: #aac17c; }
+  background: #aac17c;
+  padding: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_sidebar\.scss}line{font-family:\000034}}
+  aside ul {
+    background: #e8f2f2;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_sidebar\.scss}line{font-family:\000039}}
+    aside ul li {
+      background: #d1e4e5;
+      border-top: 2px solid white; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_site-template\.scss}line{font-family:\000037}}
 * {
