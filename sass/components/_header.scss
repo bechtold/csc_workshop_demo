@@ -1,0 +1,18 @@
+header {
+  color: white;
+  background: #0F4DA8;
+  border: 1px solid black;
+  position: relative;
+  .switcher {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    list-style: none;
+    li {
+      display: inline-block;
+      a {
+        color: white;
+      }
+    }
+  }
+}
