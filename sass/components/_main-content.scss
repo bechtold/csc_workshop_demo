@@ -1,7 +1,6 @@
 main {
   nav {
-    background: #FF8B40;
-    border: 1px solid black;
+    background: $color-neptune;
     ul {
       list-style: none;
       margin: 0;
@@ -12,8 +11,6 @@ main {
     }
   }
   section {
-    background: #FF6400;
-    border: 1px solid black;
     > ul {
       list-style: none;
       margin: 0;
@@ -21,7 +18,6 @@ main {
     }
   }
   aside {
-    background: #BF6830;
-    border: 1px solid black;
+    background: $color-olivine;
   }
 }

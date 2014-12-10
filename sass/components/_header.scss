@@ -1,8 +1,11 @@
 header {
-  color: white;
-  background: #0F4DA8;
-  border: 1px solid black;
+  background: $color-gallery;
   position: relative;
+  @include rem(height, 140px);
+  @include rem(margin-bottom, 40px);
+  .logo{
+    float: left;
+  }
   .switcher {
     position: absolute;
     top: 0px;

@@ -12,9 +12,8 @@ body {
 }
 
 
-header, footer, nav, aside, section {
+header, footer, main nav, aside, section {
   padding: 20px;
-  margin: 0 0 20px 0;
 }
 
 @include add-grid(12);
