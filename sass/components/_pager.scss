@@ -12,12 +12,20 @@
       color: #fff;
       padding: 3px 5px;
       display: inline-block;
+      &:hover{
+        background: $color-mystic;
+        color: black;
+      }
     }
 
     &:first-child,
     &:last-child {
       a {
         background: $color-alto;
+        &:hover{
+          background: $color-aqua-haze;
+          color: black;
+        }
       }
     }
   }

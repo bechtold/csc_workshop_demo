@@ -5,6 +5,21 @@
     @include inline-block-list();
   }
 
-  a[href*=twitter]{
+  a {
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    background-color: $color-silver;
+    text-indent: -90000em;
+
+    $social-icons: sprite-map("social-icons/*.png", $position: 100%, $spacing: 15px, $repeat: no-repeat);
+    $social-map: ("twitter": "twitter-24", "facebook": "facebook-24", "pinterest": "pinterest-24", "plus.google": "googleplus-24");
+
+    @each $key, $value in $social-map {
+      &[href*="#{$key}"] {
+        background: $color-silver sprite($social-icons, $value, 5px, 5px) no-repeat;
+      }
+    }
+
   }
 }
