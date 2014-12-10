@@ -1,11 +1,8 @@
 // Import external libraries.
-@import 'normalize';
-
-// Import external libraries.
 @import 'compass';
 @import 'breakpoint';
 @import 'singularitygs';
-//@import "toolkit/kickstart";
+@import 'toolkit/kickstart';
 
 @import 'important/imports';
 // imports using globbing
@@ -13,3 +10,8 @@
 @import 'abstractions/**/*';
 @import 'base/**/*';
 @import 'components/**/*';
+
+// normalize or reset
+@import 'normalize';
+//@include global-reset;
+

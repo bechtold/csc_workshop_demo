@@ -1,3 +1,18 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/vendor\/bundle\/gems\/toolkit-2\.6\.0\/stylesheets\/toolkit\/_kickstart\.scss}line{font-family:\000031}}
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/vendor\/bundle\/gems\/toolkit-2\.6\.0\/stylesheets\/toolkit\/_kickstart\.scss}line{font-family:\0000311}}
+img, video {
+  max-width: 100%;
+  height: auto; }
+
+/* No files to import found in variables/**\/* */
+/* No files to import found in abstractions/**\/* */
+/* No files to import found in base/**\/* */
+/* No files to import found in components/**\/* */
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /*! normalize.css v3.0.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/vendor\/bundle\/gems\/compass-normalize-1\.5\/stylesheets\/normalize\/_html5\.scss}line{font-family:\000039}}
@@ -225,10 +240,5 @@ table {
 td,
 th {
   padding: 0; }
-
-/* No files to import found in variables/**\/* */
-/* No files to import found in abstractions/**\/* */
-/* No files to import found in base/**\/* */
-/* No files to import found in components/**\/* */
 
 /*# sourceMappingURL=style.css.map */

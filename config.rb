@@ -24,12 +24,9 @@ fonts_dir = "/fonts"
 
 # Require any additional compass plugins installed on your system.
 require 'compass-normalize'
-#require 'rgbapng'
-#require 'toolkit'
-#require 'susy'
+require 'toolkit'
 require 'sass-globbing'
 require 'breakpoint'
-#require 'bootstrap-sass'
 require 'singularitygs'
 
 ##
