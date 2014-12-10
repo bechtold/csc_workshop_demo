@@ -21,17 +21,18 @@ aside {
       margin: 0;
     }
 
-    .date {
-      @include clearfix;
+  }
 
-      p + p .js & {
-        display: none;
-      }
+  .date {
+    @include clearfix;
 
-      .more {
-        @include hover-link;
-        float: right;
-      }
+    p + p .js & {
+      display: none;
+    }
+
+    .more {
+      @include hover-link;
+      float: right;
     }
   }
 }

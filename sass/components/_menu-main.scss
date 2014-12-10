@@ -9,17 +9,18 @@
     background: $color-casablanca;
     padding-left: 10px;
 
-    a {
-      @include rem(font-size, $font-size-menu);
-      @include rem(padding, 10px 10px);
-      display: inline-block;
-      text-decoration: none;
-      color: #fff;
+  }
 
-      &.active,
-      &:hover {
-        background: $color-valencia;
-      }
+  a {
+    @include rem(font-size, $font-size-menu);
+    @include rem(padding, 10px 10px);
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+
+    &.active,
+    &:hover {
+      background: $color-valencia;
     }
   }
 }

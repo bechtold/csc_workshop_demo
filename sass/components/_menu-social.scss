@@ -1,7 +1,8 @@
 .social {
   text-align: center;
+
   ul {
-    display: inline-block;
     @include horizontal-list();
+    display: inline-block;
   }
 }
