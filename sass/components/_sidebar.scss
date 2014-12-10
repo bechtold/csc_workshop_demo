@@ -16,8 +16,14 @@ aside {
         margin: 0;
       }
       div {
+        p + p{
+          .js &{
+            display: none;
+          }
+        }
         @include clearfix;
-        .a {
+        .more {
+          @include hover-link;
           float: right;
         }
       }

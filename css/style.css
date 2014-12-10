@@ -92,7 +92,16 @@ main section > ul {
       *zoom: 1; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000325}}
       main section > ul li article .more {
-        float: right; }
+        text-decoration: none;
+        float: right;
+        margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/vendor\/bundle\/gems\/compass-core-1\.0\.1\/stylesheets\/compass\/typography\/links\/_hover-link\.scss}line{font-family:\000034}}
+        main section > ul li article .more:hover, main section > ul li article .more:focus {
+          text-decoration: underline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000329}}
+        main section > ul li article .more:after {
+          content: "...";
+          margin-left: 5px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_menu-main\.scss}line{font-family:\000031}}
 .main-menu {
@@ -223,8 +232,15 @@ aside {
         overflow: hidden;
         *zoom: 1; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_sidebar\.scss}line{font-family:\0000320}}
-        aside ul li div .a {
+        .js aside ul li div p + p {
+          display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_sidebar\.scss}line{font-family:\0000325}}
+        aside ul li div .more {
+          text-decoration: none;
           float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/vendor\/bundle\/gems\/compass-core-1\.0\.1\/stylesheets\/compass\/typography\/links\/_hover-link\.scss}line{font-family:\000034}}
+          aside ul li div .more:hover, aside ul li div .more:focus {
+            text-decoration: underline; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_site-template\.scss}line{font-family:\000037}}
 * {

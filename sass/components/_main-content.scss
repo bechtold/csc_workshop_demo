@@ -23,7 +23,13 @@ main {
         article{
           @include clearfix;
           .more{
+            @include hover-link;
             float: right;
+            margin-bottom: 10px;
+            &:after{
+              content: "...";
+              margin-left: 5px;
+            }
           }
         }
       }
