@@ -24,8 +24,5 @@ linters:
     convention: '[a-z0-9\-\_]+'
 
   SelectorDepth:
-    enabled: true
-    max_depth: 3
-    exclude:
-      - 'sass/components/form/_dialog-links.scss'
-      - 'sass/components/form/_field-collections.scss'
+    enabled: false
+    max_depth: 4

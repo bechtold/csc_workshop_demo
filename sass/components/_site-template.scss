@@ -8,11 +8,8 @@ $grid-large: 960px;
   @include box-sizing('border-box');
 }
 
-body {
-}
-
-
-header, footer {
+header,
+footer {
   padding: 20px;
 }
 
@@ -28,12 +25,15 @@ body {
 
 main {
   @include clearfix;
+
   nav {
     @include grid-span(3);
   }
+
   section {
     @include grid-span(6, 4);
   }
+
   aside {
     @include grid-span(3, 10);
   }

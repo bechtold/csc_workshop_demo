@@ -3,19 +3,21 @@
   bottom: 0;
   left: 0;
   width: 100%;
+
   ul {
     @include horizontal-list();
     background: $color-casablanca;
     padding-left: 10px;
-    a{
-      display: inline-block;
-      text-decoration: none;
-      color: white;
+
+    a {
       @include rem(font-size, $font-size-menu);
       @include rem(padding, 10px 10px);
+      display: inline-block;
+      text-decoration: none;
+      color: #fff;
 
       &.active,
-      &:hover{
+      &:hover {
         background: $color-valencia;
       }
     }

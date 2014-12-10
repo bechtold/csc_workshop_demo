@@ -1,31 +1,36 @@
 aside {
   background: $color-olivine;
   padding: 10px;
+
   ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    li{
-      background: white;
-      border-top: 2px solid white;
-      padding: 10px;
-      &:first-child{
-        background: $color-kidnapper;
+  }
+
+  li {
+    background: #fff;
+    border-top: 2px solid #fff;
+    padding: 10px;
+
+    &:first-child {
+      background: $color-kidnapper;
+    }
+
+    h3 {
+      margin: 0;
+    }
+
+    .date {
+      @include clearfix;
+
+      p + p .js & {
+        display: none;
       }
-      h3{
-        margin: 0;
-      }
-      div {
-        p + p{
-          .js &{
-            display: none;
-          }
-        }
-        @include clearfix;
-        .more {
-          @include hover-link;
-          float: right;
-        }
+
+      .more {
+        @include hover-link;
+        float: right;
       }
     }
   }

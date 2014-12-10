@@ -1,21 +1,25 @@
 header {
-  background: $color-gallery;
-  position: relative;
   @include rem(height, 140px);
   @include rem(margin-bottom, 40px);
-  .logo{
+  background: $color-gallery;
+  position: relative;
+
+  .logo {
     float: left;
   }
+
   .switcher {
     position: absolute;
-    top: 0px;
+    top: 0;
     right: 20px;
     list-style: none;
+
     li {
       display: inline-block;
-      a {
-        color: white;
-      }
+    }
+
+    a {
+      color: #fff;
     }
   }
 }
