@@ -204,14 +204,27 @@ aside {
   padding: 10px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_sidebar\.scss}line{font-family:\000034}}
   aside ul {
-    background: #e8f2f2;
     list-style: none;
     margin: 0;
     padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_sidebar\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_sidebar\.scss}line{font-family:\000038}}
     aside ul li {
-      background: #d1e4e5;
-      border-top: 2px solid white; }
+      background: white;
+      border-top: 2px solid white;
+      padding: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_sidebar\.scss}line{font-family:\0000312}}
+      aside ul li:first-child {
+        background: #dde6cb; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_sidebar\.scss}line{font-family:\0000315}}
+      aside ul li h3 {
+        margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_sidebar\.scss}line{font-family:\0000318}}
+      aside ul li div {
+        overflow: hidden;
+        *zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_sidebar\.scss}line{font-family:\0000320}}
+        aside ul li div .a {
+          float: right; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_site-template\.scss}line{font-family:\000037}}
 * {
