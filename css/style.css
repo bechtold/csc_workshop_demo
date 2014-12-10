@@ -56,6 +56,10 @@ header {
       header .switcher li a {
         color: white; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_login\.scss}line{font-family:\000031}}
+.login {
+  float: right; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\000032}}
 main nav {
   background: #FF8B40;
@@ -81,6 +85,32 @@ main section {
 main aside {
   background: #BF6830;
   border: 1px solid black; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_menu-main\.scss}line{font-family:\000031}}
+.main ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  *zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/vendor\/bundle\/gems\/compass-core-1\.0\.1\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000362}}
+  .main ul li {
+    list-style-image: none;
+    list-style-type: none;
+    margin-left: 0;
+    white-space: nowrap;
+    float: left;
+    padding-left: 4px;
+    padding-right: 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/vendor\/bundle\/gems\/compass-core-1\.0\.1\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000349}}
+    .main ul li:first-child {
+      padding-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/vendor\/bundle\/gems\/compass-core-1\.0\.1\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000350}}
+    .main ul li:last-child {
+      padding-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/vendor\/bundle\/gems\/compass-core-1\.0\.1\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000352}}
+    .main ul li.last {
+      padding-right: 0; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_site-template\.scss}line{font-family:\000037}}
 * {
