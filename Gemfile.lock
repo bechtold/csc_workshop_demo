@@ -76,6 +76,8 @@ GEM
     thor (0.19.1)
     timers (4.0.1)
       hitimes
+    toolkit (2.6.0)
+      sass (~> 3.3)
     yajl-ruby (1.2.1)
 
 PLATFORMS
@@ -97,4 +99,5 @@ DEPENDENCIES
   sass (~> 3.4.5)
   sass-globbing
   singularitygs
+  toolkit
   yajl-ruby

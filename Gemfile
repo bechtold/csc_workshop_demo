@@ -10,6 +10,7 @@ group :development do
   gem 'singularitygs'                   # Alternative to the Susy grid framework.
   gem 'breakpoint'                      # Manages CSS media queries.
   gem 'oily_png'                        # Faster Compass sprite generation.
+  gem 'toolkit'
 
   # Guard
   gem 'guard'                           # Guard event handler.
