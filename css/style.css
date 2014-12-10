@@ -1,3 +1,14 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/vendor\/bundle\/gems\/toolkit-2\.6\.0\/stylesheets\/toolkit\/_kickstart\.scss}line{font-family:\000031}}
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/vendor\/bundle\/gems\/toolkit-2\.6\.0\/stylesheets\/toolkit\/_kickstart\.scss}line{font-family:\0000311}}
+img, video {
+  max-width: 100%;
+  height: auto; }
+
 /* No files to import found in variables/**\/* */
 /* No files to import found in abstractions/**\/* */
 /* No files to import found in base/**\/* */
