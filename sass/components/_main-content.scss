@@ -1,5 +1,5 @@
 main {
-  ul {
+  ul.articles {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -7,22 +7,44 @@ main {
     h2 {
       margin-top: 0;
     }
-  }
-
-  li {
-    padding-top: 10px;
-    margin-bottom: 20px;
-    border-top: 10px solid $color-mystic;
-
-    &:hover {
-      background: $color-aqua-haze;
-    }
-
-    &:nth-child(2n) {
-      border-top-color: $color-olivine;
+    li {
+      padding-top: 10px;
+      margin-bottom: 20px;
+      border-top: 10px solid $color-mystic;
 
       &:hover {
-        background: $color-kidnapper;
+        background: $color-aqua-haze;
+      }
+
+      &:nth-child(2n) {
+        border-top-color: $color-olivine;
+
+        &:hover {
+          background: $color-kidnapper;
+        }
+      }
+    }
+  }
+
+  .pager {
+    text-align: center;
+    ul {
+      @include horizontal-list;
+      display: inline-block;
+      li {
+        a {
+          text-decoration: none;
+          background: $color-silver;
+          color: #fff;
+          padding: 3px 5px;
+          display: inline-block;
+        }
+        &:first-child,
+        &:last-child {
+          a {
+            background: $color-alto;
+          }
+        }
       }
     }
   }

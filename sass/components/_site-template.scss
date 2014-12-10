@@ -26,7 +26,7 @@ body {
 main {
   @include clearfix;
 
-  nav {
+  nav.sub-menu {
     @include grid-span(3);
   }
 

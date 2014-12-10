@@ -65,32 +65,71 @@ header {
   float: right; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\000032}}
-main ul {
+main ul.articles {
   list-style: none;
   margin: 0;
   padding: 0; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\000037}}
-  main ul h2 {
+  main ul.articles h2 {
     margin-top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000312}}
-main li {
-  padding-top: 10px;
-  margin-bottom: 20px;
-  border-top: 10px solid #d1e4e5; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000317}}
-  main li:hover {
-    background: #e8f2f2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000321}}
-  main li:nth-child(2n) {
-    border-top-color: #aac17c; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000324}}
-    main li:nth-child(2n):hover {
-      background: #dde6cb; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000330}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000310}}
+  main ul.articles li {
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border-top: 10px solid #d1e4e5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000315}}
+    main ul.articles li:hover {
+      background: #e8f2f2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000319}}
+    main ul.articles li:nth-child(2n) {
+      border-top-color: #aac17c; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000322}}
+      main ul.articles li:nth-child(2n):hover {
+        background: #dde6cb; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000329}}
+main .pager {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000331}}
+  main .pager ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    *zoom: 1;
+    display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/vendor\/bundle\/gems\/compass-core-1\.0\.1\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000362}}
+    main .pager ul li {
+      list-style-image: none;
+      list-style-type: none;
+      margin-left: 0;
+      white-space: nowrap;
+      float: left;
+      padding-left: 4px;
+      padding-right: 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/vendor\/bundle\/gems\/compass-core-1\.0\.1\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000349}}
+      main .pager ul li:first-child {
+        padding-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/vendor\/bundle\/gems\/compass-core-1\.0\.1\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000350}}
+      main .pager ul li:last-child {
+        padding-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/vendor\/bundle\/gems\/compass-core-1\.0\.1\/stylesheets\/compass\/typography\/lists\/_horizontal-list\.scss}line{font-family:\0000352}}
+      main .pager ul li.last {
+        padding-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000335}}
+    main .pager ul li a {
+      text-decoration: none;
+      background: #c4c4c4;
+      color: #fff;
+      padding: 3px 5px;
+      display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000344}}
+    main .pager ul li:first-child a, main .pager ul li:last-child a {
+      background: #d9d9d9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000352}}
 main article {
   overflow: hidden;
   *zoom: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000355}}
   main article .more {
     text-decoration: none;
     float: right;
@@ -98,7 +137,7 @@ main article {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/vendor\/bundle\/gems\/compass-core-1\.0\.1\/stylesheets\/compass\/typography\/links\/_hover-link\.scss}line{font-family:\000034}}
     main article .more:hover, main article .more:focus {
       text-decoration: underline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_main-content\.scss}line{font-family:\0000360}}
     main article .more:after {
       content: '...';
       margin-left: 5px; }
@@ -264,7 +303,7 @@ main {
   overflow: hidden;
   *zoom: 1; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/oskar\/workspace\/oskarbechtold\/responsive_adaptive\/sass\/components\/_site-template\.scss}line{font-family:\0000329}}
-  main nav {
+  main nav.sub-menu {
     -sgs-span-settings: ("span": 3, "location": 1, "grid": 12, "gutter": 0.33333, "style": "opposite", "start row": true, "end row": false, "fixed gutter": false, "split gutter": null, "gutter property": "margin", "options": ((null: null)));
     width: 23.40426%;
     float: left;
