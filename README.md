@@ -26,5 +26,8 @@ needs Grunt, Guard & Bundler
 # Using Grunt
 scsslint and jshint - make sure all packages are installed (1.B.1)
 
+1. install grunt etc.
+  npm install
+
 2.A) run the general lint & test
   1. $ grunt lint
