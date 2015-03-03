@@ -14,7 +14,8 @@ module.exports = function (grunt) {
     css:        'css',
     img:        'images',
     tests:      'test',
-    sassdoc:    'sass-doc'
+    sassdoc:    'sass-doc',
+    js:         'js'
   };
 
   var lrSnippet = require('connect-livereload')({
